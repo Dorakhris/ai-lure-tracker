@@ -1,0 +1,2202 @@
+{
+  "type": "bundle",
+  "id": "bundle--4e83ce06-b091-47b7-840a-ede27b3a6305",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-01-01T00:00:00.000Z",
+      "modified": "2026-01-01T00:00:00.000Z",
+      "name": "AI Lure Tracker CTI Initiative",
+      "identity_class": "organization",
+      "sectors": [
+        "technology",
+        "defense"
+      ],
+      "contact_information": "cti@ailuretracker.local"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4b6aa26d-1dff-5c99-9333-2afb9dd4b581",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:56:12.806983+00:00Z",
+      "name": "AI Lure (midjourney): midjourney-v6-pc-crack.buzz",
+      "description": "Malicious infrastructure using midjourney as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'midjourney-v6-pc-crack.buzz']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 100,
+      "labels": [
+        "ai-lure",
+        "midjourney",
+        "fake_installer",
+        "stealc"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "midjourney",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--573a2cc4-8b6a-5feb-83e4-b6d0ce7db976",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "Stealc",
+      "is_family": true,
+      "malware_types": [
+        "stealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--68bf9371-cd74-4f0b-a95c-133d53c1df74",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4b6aa26d-1dff-5c99-9333-2afb9dd4b581",
+      "target_ref": "malware--573a2cc4-8b6a-5feb-83e4-b6d0ce7db976"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "MITRE ATT&CK T1566.002",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--387a693c-ac37-4116-b0a9-7fe8edd9ea28",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4b6aa26d-1dff-5c99-9333-2afb9dd4b581",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "MITRE ATT&CK T1036.005",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--777079f7-ec50-43e4-9e83-a0194fa9f705",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4b6aa26d-1dff-5c99-9333-2afb9dd4b581",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "MITRE ATT&CK T1204.002",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4c7e63b8-35b8-4348-a423-367bdad88cc2",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4b6aa26d-1dff-5c99-9333-2afb9dd4b581",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4682645e-4564-55f0-8266-8f5a77ff646c",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:55:56.499920+00:00Z",
+      "name": "AI Lure (google_ai): https://gemini-advanced-ai-setup.xyz/login.php",
+      "description": "Malicious infrastructure using google_ai as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://gemini-advanced-ai-setup.xyz/login.php']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 100,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "google_ai",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "LummaC2 Stealer",
+      "is_family": true,
+      "malware_types": [
+        "stealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f5f75474-5332-4b1b-a766-07e27450df5c",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4682645e-4564-55f0-8266-8f5a77ff646c",
+      "target_ref": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6d66a165-1766-40ae-8aeb-860f246a550f",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4682645e-4564-55f0-8266-8f5a77ff646c",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--df488aa1-2a91-4f6b-841e-f70f80ee96d3",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4682645e-4564-55f0-8266-8f5a77ff646c",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5b5a363d-40c5-44e2-9a76-033925683c17",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4682645e-4564-55f0-8266-8f5a77ff646c",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--07627ca0-e08a-583c-9251-e0fd54a47619",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:55:53.561241+00:00Z",
+      "name": "AI Lure (anthropic): https://claude-35-sonnet-pro-free.icu/download/claude_installer.exe",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://claude-35-sonnet-pro-free.icu/download/claude_installer.exe']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 100,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--49787c87-c796-49c6-a2fb-323c3c71d4e3",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--07627ca0-e08a-583c-9251-e0fd54a47619",
+      "target_ref": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--5e95c8df-b8b5-404b-8a93-3a5bfc376e62",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--07627ca0-e08a-583c-9251-e0fd54a47619",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e85a68af-91d9-4f87-b186-e7f744cbee25",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--07627ca0-e08a-583c-9251-e0fd54a47619",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6a131fe2-0ac7-439f-8dbb-d6ea7a549b04",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--07627ca0-e08a-583c-9251-e0fd54a47619",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7729620d-3fe1-55be-a07d-369d77d3bee2",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:56:23.326929+00:00Z",
+      "name": "AI Lure (ollama): ollama-ai-desktop-installer.site",
+      "description": "Malicious infrastructure using ollama as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'ollama-ai-desktop-installer.site']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 85,
+      "labels": [
+        "ai-lure",
+        "ollama",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "ollama",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1d9f3ee8-9e33-4305-971a-fa38707982b9",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7729620d-3fe1-55be-a07d-369d77d3bee2",
+      "target_ref": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--aaf259a3-35a3-48b9-b6bf-4e3dd41efb34",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7729620d-3fe1-55be-a07d-369d77d3bee2",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--86e581a9-5388-4465-8b11-4401f54c350e",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7729620d-3fe1-55be-a07d-369d77d3bee2",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ec8442d9-0b0b-41e9-a9bb-59f0685bf3c9",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7729620d-3fe1-55be-a07d-369d77d3bee2",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3c030f3b-5bc9-56ff-b49d-b90f15305b60",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:55:59.170767+00:00Z",
+      "name": "AI Lure (deepseek): deepseek-coder-client-win64.lat",
+      "description": "Malicious infrastructure using deepseek as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'deepseek-coder-client-win64.lat']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 85,
+      "labels": [
+        "ai-lure",
+        "deepseek",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "deepseek",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7ab54dbc-3609-4b4d-b17f-aa90ed71baf7",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3c030f3b-5bc9-56ff-b49d-b90f15305b60",
+      "target_ref": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c808bd1f-94c9-446c-b05b-c82850b4898a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3c030f3b-5bc9-56ff-b49d-b90f15305b60",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--002718be-3aa2-46e4-aa21-7fe75f8c2561",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3c030f3b-5bc9-56ff-b49d-b90f15305b60",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1e42b04e-c3a9-4570-b191-c2fa56b0393e",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3c030f3b-5bc9-56ff-b49d-b90f15305b60",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8ede34bb-9b2c-5e3b-bf8c-f274488b1e90",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:55:44.726921+00:00Z",
+      "name": "AI Lure (openai): chatgpt-4o-desktop-installer.top",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: fake_installer.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[domain-name:value = 'chatgpt-4o-desktop-installer.top']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 85,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "fake_installer",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ab2f378b-aadc-4133-a5af-06a3ab9f49d4",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ede34bb-9b2c-5e3b-bf8c-f274488b1e90",
+      "target_ref": "malware--4f024059-8a29-5d2e-a464-9d877c51e0aa"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--28e2fe50-9f32-42b5-8348-f1dc04e26f9e",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ede34bb-9b2c-5e3b-bf8c-f274488b1e90",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--496fda4d-5ea8-4b52-adfa-280ea0c7f652",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ede34bb-9b2c-5e3b-bf8c-f274488b1e90",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--b493f4fb-edcd-4ae8-b9b6-0c68f59c9606",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8ede34bb-9b2c-5e3b-bf8c-f274488b1e90",
+      "target_ref": "attack-pattern--69718568-46f0-5043-9709-6cb1ab76d17b"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--783fe41d-d850-546b-afd7-3e9c81c95ddf",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:56:26.727169+00:00Z",
+      "name": "AI Lure (openai): https://openai-chatgpt-plus-token.cfd/auth/signin",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: credential_phish.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://openai-chatgpt-plus-token.cfd/auth/signin']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 80,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "credential_phish"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "credential_phish",
+        "x_confidence_level": "high",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f583909d-47c6-455c-b7e5-4ef1adb3b12f",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--783fe41d-d850-546b-afd7-3e9c81c95ddf",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--120a02be-41e5-4d13-8e3d-aa93728b582b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--783fe41d-d850-546b-afd7-3e9c81c95ddf",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.073704+00:00Z",
+      "modified": "2026-10-24T11:55:59.236976+00:00Z",
+      "name": "AI Lure (ai_ecosystem_library): langchain-copilot-plugin",
+      "description": "Malicious infrastructure using ai_ecosystem_library as lure. Lure Category: typosquat_dependency.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'langchain-copilot-plugin']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00Z",
+      "confidence": 60,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "ai_ecosystem_library",
+        "x_lure_type": "typosquat_dependency",
+        "x_confidence_level": "medium",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "Trojanized PyPI/npm Dependency",
+      "is_family": true,
+      "malware_types": [
+        "stealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d1c0ddcb-e387-4364-a833-af0669f1d59f",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--36c11026-b6e7-4c2d-aaf7-3a6938b75392",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e9879a16-c2d8-4fc3-8ade-c5897ad0113a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "MITRE ATT&CK T1195.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6c052f1d-f1a7-44cc-a326-4d1f76c3bef6",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "name": "MITRE ATT&CK T1059.006",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--15e45e0b-ca21-4c87-b08d-9860ffe00f1a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--aeb144fd-04ce-5f76-9651-4757af68154c",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:24.485118+00:00Z",
+      "modified": "2026-10-24T11:55:35.935602+00:00Z",
+      "name": "AI Lure (ai_ecosystem_library): primarypath-langgraph",
+      "description": "Malicious infrastructure using ai_ecosystem_library as lure. Lure Category: typosquat_dependency.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'primarypath-langgraph']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00Z",
+      "confidence": 60,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "ai_ecosystem_library",
+        "x_lure_type": "typosquat_dependency",
+        "x_confidence_level": "medium",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6196cef3-0adf-44c2-87df-0962c872a7ab",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--d7b8bd29-c8f9-4cd1-a886-299d9c926b64",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--30373229-2620-4ffe-8071-2924e37286a2",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3cebff45-b8cb-478f-9a18-7e748950f6f2",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8bb9b6f9-04e1-4344-b771-4fbed888fe65",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--1b73be33-e794-518d-b2b9-3cab1e7c5888",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:24.485118+00:00Z",
+      "modified": "2026-10-24T11:55:35.896518+00:00Z",
+      "name": "AI Lure (ai_ecosystem_library): llmf",
+      "description": "Malicious infrastructure using ai_ecosystem_library as lure. Lure Category: typosquat_dependency.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'llmf']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00Z",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "ai_ecosystem_library",
+        "x_lure_type": "typosquat_dependency",
+        "x_confidence_level": "medium",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--cdcf896e-9af4-4cd7-888b-3a0e636b2ba7",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e5f9a93a-bd78-4e02-867d-2b732b02ed09",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--17314264-c7e8-4d0d-beb4-050c0b417006",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--de975c81-b72e-4f0c-a503-6bcaa50a2827",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--902c71ed-699d-486d-ac4f-56b2555c9491",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--887f6452-3fd3-5d9b-895a-066d5bdbc597",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:27.067077+00:00Z",
+      "modified": "2026-10-24T11:55:36.042301+00:00Z",
+      "name": "AI Lure (anthropic): @bash0816/claude-code",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: lookalike_package.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = '@bash0816/claude-code']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:27.067077+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "lookalike_package",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--442c8524-e6ed-42cf-85c7-bd94aa39de28",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--94e698fb-490a-4f55-9685-47cc15bb0a60",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--da0512fc-6119-4f04-b935-1d4070bf6191",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ea266af7-904e-421b-a101-df03521a26e1",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1fbed085-c822-4e21-9b3d-0816d90c1013",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--165384f2-17a8-595d-8d32-46afd8bc3962",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:24.487070+00:00Z",
+      "modified": "2026-10-24T11:55:36.006816+00:00Z",
+      "name": "AI Lure (anthropic): my-claude-code",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: lookalike_package.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'my-claude-code']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:24.487070+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "lookalike_package",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--021372fa-be0c-46d2-880a-a31adc725074",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1b8c9746-0a58-499e-828a-6e9f3e008811",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--cc695867-19fe-4747-becf-c1ee8bec73ec",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--57160e51-1c40-4637-9ae6-e58422282216",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--beda5b92-5da2-4bff-b057-c6021f87dd03",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02d93712-663e-590b-9572-bd7f24257acc",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:24.485118+00:00Z",
+      "modified": "2026-10-24T11:55:35.952970+00:00Z",
+      "name": "AI Lure (anthropic): primarypath-claude-agent",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: lookalike_package.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'primarypath-claude-agent']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "lookalike_package",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7be4036b-5b7b-48e1-91ac-6e60a0e895f5",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--bc9ff166-4ca6-4907-a4ac-07273839fb9b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0a37e36e-8098-4e53-9d86-7b15c53cc009",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--9c8da003-ec77-4645-aa66-8dc224ae264f",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--14e3b416-cd0e-4722-8b36-8f7c7ace4cb5",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--4bcef958-0863-5842-8ab6-a79ee6117eef",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:48:24.485118+00:00Z",
+      "modified": "2026-10-24T11:55:35.916898+00:00Z",
+      "name": "AI Lure (openai): primarypath-openai-agents",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: lookalike_package.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[software:name = 'primarypath-openai-agents']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1195.001",
+          "url": "https://attack.mitre.org/techniques/T1195/001/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.006",
+          "url": "https://attack.mitre.org/techniques/T1059/006/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "lookalike_package",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--53fe23c9-fae0-4acc-8e4b-3857e6a078cf",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "target_ref": "malware--c32528fa-838d-5de3-8e7a-05c5806968a0"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f99c3f44-f7f1-4002-bdee-e40326f2f04a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--f4e7ffea-cade-46d4-a885-1dfdc8b8f2cb",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0537be99-7bb4-4e9d-ae0e-f5fcb167a525",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "target_ref": "attack-pattern--ced121e6-c688-5572-a9b7-26bb6feeb4da"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ee68ac13-297c-437e-9205-ae63fb7206b4",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--9970579a-6097-5d45-a6fb-d545d9bf6aa7",
+      "target_ref": "attack-pattern--3ada1590-af89-58a9-896c-97e5924b6952"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0f71836e-aaeb-5042-ae38-f34f1674e51b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.288052+00:00Z",
+      "modified": "2026-10-24T11:55:35.871916+00:00Z",
+      "name": "AI Lure (google_ai): https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data",
+      "description": "Malicious infrastructure using google_ai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.288052+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "google_ai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS16509",
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3286aa2a-af95-4d00-8307-7c4b8f28e5df",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--0f71836e-aaeb-5042-ae38-f34f1674e51b",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a63fa5e6-63c2-463c-a40a-bfcef6b58501",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--0f71836e-aaeb-5042-ae38-f34f1674e51b",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2d30f4d4-d803-58d5-a72e-1827a3db0a9c",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.160261+00:00Z",
+      "modified": "2026-10-24T11:55:33.024673+00:00Z",
+      "name": "AI Lure (openai): https://openai-onlinecfg.dafleek.com/ai/app/key.php?",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://openai-onlinecfg.dafleek.com/ai/app/key.php?']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.160261+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": "GoDaddy.com, LLC",
+        "x_domain_age_days": 1863
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--727e47d1-4fb3-45bc-bcbc-e4a3d62db60d",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2d30f4d4-d803-58d5-a72e-1827a3db0a9c",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a96b1e04-3d68-408e-8543-b0aff6ec07b0",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2d30f4d4-d803-58d5-a72e-1827a3db0a9c",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8880fde8-9e6a-5bae-b710-9224f326047b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.149900+00:00Z",
+      "modified": "2026-10-24T11:55:30.287031+00:00Z",
+      "name": "AI Lure (anthropic): https://claude.serv7231.pro/captcha.php",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://claude.serv7231.pro/captcha.php']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.149900+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS13335",
+        "x_registrar": "Dynadot Inc",
+        "x_domain_age_days": 191
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c800a315-7133-4455-8437-4d52d8f099e5",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8880fde8-9e6a-5bae-b710-9224f326047b",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0e4a4bc5-8e9d-4b81-96a8-40e324ce829b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--8880fde8-9e6a-5bae-b710-9224f326047b",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--82854685-d97f-5c72-b46d-91e45b3d8352",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.149900+00:00Z",
+      "modified": "2026-10-24T11:55:29.944649+00:00Z",
+      "name": "AI Lure (anthropic): https://claude.serv7231.pro/",
+      "description": "Malicious infrastructure using anthropic as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://claude.serv7231.pro/']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.149900+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "anthropic",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS13335",
+        "x_registrar": "Dynadot Inc",
+        "x_domain_age_days": 191
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ca20f1f3-38f1-4cba-b76d-c15c8add7d9a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--82854685-d97f-5c72-b46d-91e45b3d8352",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--c7ede3a5-6343-420b-9480-a88d5c2e2fe9",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--82854685-d97f-5c72-b46d-91e45b3d8352",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02f12e31-11d8-52dc-93b4-a5ac23689097",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.126742+00:00Z",
+      "modified": "2026-10-24T11:55:19.236338+00:00Z",
+      "name": "AI Lure (general_ai_terms): https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf",
+      "description": "Malicious infrastructure using general_ai_terms as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.126742+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "general_ai_terms",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "general_ai_terms",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS54113",
+        "x_registrar": null,
+        "x_domain_age_days": null
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--6d4883de-dad2-4ed2-969f-7723e6e28889",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02f12e31-11d8-52dc-93b4-a5ac23689097",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2a1e87d1-caa8-45a6-a617-8afaa70facb0",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--02f12e31-11d8-52dc-93b4-a5ac23689097",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c55b6aa8-70e4-529a-a0c8-6728d4879ae8",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.108044+00:00Z",
+      "modified": "2026-10-24T11:55:17.662114+00:00Z",
+      "name": "AI Lure (openai): https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.108044+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS20860",
+        "x_registrar": "eNom, LLC",
+        "x_domain_age_days": 1026
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3c5e4222-ae59-4dc0-ad24-3a852c6a4786",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c55b6aa8-70e4-529a-a0c8-6728d4879ae8",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--8a13c59b-a060-48ba-b8f1-623991d2160a",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--c55b6aa8-70e4-529a-a0c8-6728d4879ae8",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f7c5783c-77e1-57e8-bfc4-591365fd2c13",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.086758+00:00Z",
+      "modified": "2026-10-24T11:55:14.826796+00:00Z",
+      "name": "AI Lure (openai): https://open-chtgptrenew.com/refu/chatgpt/",
+      "description": "Malicious infrastructure using openai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://open-chtgptrenew.com/refu/chatgpt/']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.086758+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "openai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+        "x_domain_age_days": 143
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e10bc59e-52f1-4f0d-8012-d217864d5db5",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f7c5783c-77e1-57e8-bfc4-591365fd2c13",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--37230ef1-e73b-4824-9894-b9f7330c6840",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--f7c5783c-77e1-57e8-bfc4-591365fd2c13",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--45ba1a8b-d460-5b30-9493-e6b496d70d48",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:30.083401+00:00Z",
+      "modified": "2026-10-24T11:55:11.673379+00:00Z",
+      "name": "AI Lure (google_ai): https://corporation-gemini.wixstudio.com/us-en",
+      "description": "Malicious infrastructure using google_ai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://corporation-gemini.wixstudio.com/us-en']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:30.083401+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "google_ai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": "AS13335",
+        "x_registrar": "GoDaddy.com, LLC",
+        "x_domain_age_days": 3597
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--500dd5d0-b498-433e-b7aa-cb63afc8bb4c",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--45ba1a8b-d460-5b30-9493-e6b496d70d48",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--4e05adf5-b000-4edc-b9a4-e41bf7880a99",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--45ba1a8b-d460-5b30-9493-e6b496d70d48",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e57e8b1-34da-5d15-a87c-0a97bb53a7bd",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:29.896658+00:00Z",
+      "modified": "2026-10-24T11:55:08.946806+00:00Z",
+      "name": "AI Lure (google_ai): http://gemini-alarmes.com",
+      "description": "Malicious infrastructure using google_ai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'http://gemini-alarmes.com']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:29.896658+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "google_ai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": "Gname.com Pte. Ltd.",
+        "x_domain_age_days": 429
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--e58edfff-3c95-4c05-87b4-114c4493c253",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3e57e8b1-34da-5d15-a87c-0a97bb53a7bd",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--fdc48efa-71db-4869-9a55-545288a87333",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--3e57e8b1-34da-5d15-a87c-0a97bb53a7bd",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--619664fb-6c34-5add-8307-74464b64f6fb",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:45:29.858915+00:00Z",
+      "modified": "2026-10-24T11:55:06.838297+00:00Z",
+      "name": "AI Lure (google_ai): https://gemini-balance.yahou2011.com/",
+      "description": "Malicious infrastructure using google_ai as lure. Lure Category: brand_impersonation.",
+      "indicator_types": [
+        "malicious-activity",
+        "anomalous-activity"
+      ],
+      "pattern": "[url:value = 'https://gemini-balance.yahou2011.com/']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "valid_from": "2026-10-24T11:45:29.858915+00:00Z",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        },
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1036.005",
+          "url": "https://attack.mitre.org/techniques/T1036/005/"
+        }
+      ],
+      "custom_properties": {
+        "x_target_brand": "google_ai",
+        "x_lure_type": "brand_impersonation",
+        "x_confidence_level": "low",
+        "x_asn": null,
+        "x_registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+        "x_domain_age_days": 2404
+      }
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--ad7bd793-6be5-4bc5-adfd-a53f81ed3a1b",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--619664fb-6c34-5add-8307-74464b64f6fb",
+      "target_ref": "attack-pattern--12bae472-c069-55e4-a1e1-5a357fcb00d8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--859553b4-8615-4c6f-9749-3442f2a66f79",
+      "created_by_ref": "identity--16082ddd-641e-56f8-81c9-5be6cc333537",
+      "created": "2026-10-24T11:56:26.000Z",
+      "modified": "2026-10-24T11:56:26.000Z",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--619664fb-6c34-5add-8307-74464b64f6fb",
+      "target_ref": "attack-pattern--43b30be6-58d8-5ada-a01a-b460661b83f5"
+    }
+  ]
+}
