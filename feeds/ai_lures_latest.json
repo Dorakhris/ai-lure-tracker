@@ -1,14 +1,14 @@
 [
   {
-    "id": "34e6627e-ed3e-4f72-b5d0-af83b0aa1ce9",
+    "id": "9323bbd4-9384-48b7-86ff-858f87ecf1b5",
     "value": "midjourney-v6-pc-crack.buzz",
     "indicator_type": "domain",
     "source": "ThreatFox",
     "target_brand": "midjourney",
     "lure_type": "fake_installer",
     "associated_malware": "Stealc",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:56:12.806983+00:00",
+    "first_seen": "2026-10-25T07:16:55.730070+00:00",
+    "last_seen": "2026-10-25T07:18:30.059346+00:00",
     "confidence_score": 100,
     "confidence_level": "high",
     "mitre_attack": [
@@ -44,15 +44,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "99fcc9ff-0a37-4d13-a1d3-d2e99e162c8e",
+    "id": "d8ef926a-26da-46d2-8a82-9df6748f3548",
     "value": "https://gemini-advanced-ai-setup.xyz/login.php",
     "indicator_type": "url",
     "source": "OpenPhish",
     "target_brand": "google_ai",
     "lure_type": "fake_installer",
     "associated_malware": "LummaC2 Stealer",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:55:56.499920+00:00",
+    "first_seen": "2026-10-25T07:16:55.730062+00:00",
+    "last_seen": "2026-10-25T07:18:29.165232+00:00",
     "confidence_score": 100,
     "confidence_level": "high",
     "mitre_attack": [
@@ -88,15 +88,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "99975572-ff56-49f5-a231-e33c3df9bb88",
+    "id": "2688e53e-8350-4a10-ad28-9498692d2912",
     "value": "https://claude-35-sonnet-pro-free.icu/download/claude_installer.exe",
     "indicator_type": "url",
     "source": "URLhaus",
     "target_brand": "anthropic",
     "lure_type": "fake_installer",
     "associated_malware": "LummaC2 Stealer",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:55:53.561241+00:00",
+    "first_seen": "2026-10-25T07:16:55.730060+00:00",
+    "last_seen": "2026-10-25T07:18:28.937764+00:00",
     "confidence_score": 100,
     "confidence_level": "high",
     "mitre_attack": [
@@ -132,15 +132,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "a39859fe-3799-4d84-86d9-87161a097da8",
+    "id": "b6fbff8d-448a-4d0a-ac4d-a16a1d190230",
     "value": "ollama-ai-desktop-installer.site",
     "indicator_type": "domain",
     "source": "CertStream",
     "target_brand": "ollama",
     "lure_type": "fake_installer",
     "associated_malware": "LummaC2 Stealer",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:56:23.326929+00:00",
+    "first_seen": "2026-10-25T07:16:55.730073+00:00",
+    "last_seen": "2026-10-25T07:18:30.282500+00:00",
     "confidence_score": 85,
     "confidence_level": "high",
     "mitre_attack": [
@@ -176,15 +176,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "cf0905db-176a-420f-85ab-e8a6a7828911",
+    "id": "3a8c6f10-bb8a-48ac-9db6-e30e2240440c",
     "value": "deepseek-coder-client-win64.lat",
     "indicator_type": "domain",
     "source": "CertStream",
     "target_brand": "deepseek",
     "lure_type": "fake_installer",
     "associated_malware": "LummaC2 Stealer",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:55:59.170767+00:00",
+    "first_seen": "2026-10-25T07:16:55.730064+00:00",
+    "last_seen": "2026-10-25T07:18:29.591570+00:00",
     "confidence_score": 85,
     "confidence_level": "high",
     "mitre_attack": [
@@ -220,15 +220,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "71dac0db-23b1-4fd2-a0cf-66c948b608c7",
+    "id": "57dc81f8-231c-4a9b-91fa-0662ae5843a4",
     "value": "chatgpt-4o-desktop-installer.top",
     "indicator_type": "domain",
     "source": "CertStream",
     "target_brand": "openai",
     "lure_type": "fake_installer",
     "associated_malware": "LummaC2 Stealer",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:55:44.726921+00:00",
+    "first_seen": "2026-10-25T07:16:55.730057+00:00",
+    "last_seen": "2026-10-25T07:18:28.674990+00:00",
     "confidence_score": 85,
     "confidence_level": "high",
     "mitre_attack": [
@@ -264,15 +264,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "10d72555-c21b-4ae7-9544-3fc955c38487",
+    "id": "81b6897d-f88d-42f7-b988-a7776e07e65b",
     "value": "https://openai-chatgpt-plus-token.cfd/auth/signin",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "openai",
     "lure_type": "credential_phish",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:56:26.727169+00:00",
+    "first_seen": "2026-10-25T07:16:55.730075+00:00",
+    "last_seen": "2026-10-25T07:18:30.706997+00:00",
     "confidence_score": 80,
     "confidence_level": "high",
     "mitre_attack": [
@@ -306,15 +306,195 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "89083119-0ef2-43a1-ac78-f0d8ddf5de55",
+    "id": "d663acc7-5b88-4743-bfc0-7f4527221d94",
+    "value": "recruiter-copilot-client--coherent-voice-301813.asia-southeast1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "fake_installer",
+    "associated_malware": "LummaC2 Stealer",
+    "first_seen": "2026-10-25T07:16:16.997763+00:00",
+    "last_seen": "2026-10-25T07:18:17.044744+00:00",
+    "confidence_score": 70,
+    "confidence_level": "medium",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005",
+      "T1204.002"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.201.49"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "fake_installer",
+      "lummac2-stealer"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "ed857f2b-7ddf-4663-87ad-51d7db8d748c",
+    "value": "event-copilot-prod--event-copilot-client.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "fake_installer",
+    "associated_malware": "LummaC2 Stealer",
+    "first_seen": "2026-10-25T07:16:16.997692+00:00",
+    "last_seen": "2026-10-25T07:18:11.027478+00:00",
+    "confidence_score": 70,
+    "confidence_level": "medium",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005",
+      "T1204.002"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.24"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "fake_installer",
+      "lummac2-stealer"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "8f78caa9-7d90-4015-8801-9737a864b657",
+    "value": "interview-copilot-auth--interviewcopilot-443620.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "credential_phish",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997710+00:00",
+    "last_seen": "2026-10-25T07:18:12.272752+00:00",
+    "confidence_score": 65,
+    "confidence_level": "medium",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.23"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "credential_phish"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "17db5acd-083b-4870-998e-c0a3a13f178d",
+    "value": "https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf",
+    "indicator_type": "url",
+    "source": "PhishTank",
+    "target_brand": "general_ai_terms",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:14:13.655638+00:00",
+    "last_seen": "2026-10-25T07:18:02.286966+00:00",
+    "confidence_score": 65,
+    "confidence_level": "medium",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "146.75.95.7"
+      ],
+      "asn": "AS54113",
+      "asn_org": "Fastly, Inc",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": true,
+      "urlscan_id": "01a171dd-82af-74f9-8ebd-b0013d3faf11",
+      "urlscan_screenshot_url": "https://urlscan.io/screenshots/01a171dd-82af-74f9-8ebd-b0013d3faf11.png",
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": "Sign in."
+    },
+    "tags": [
+      "ai-lure",
+      "general_ai_terms",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "efc15cc7-e49b-4291-ae39-224806e0a644",
     "value": "langchain-copilot-plugin",
     "indicator_type": "package-pypi",
     "source": "PyPI",
     "target_brand": "ai_ecosystem_library",
     "lure_type": "typosquat_dependency",
     "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:27.073704+00:00",
-    "last_seen": "2026-10-24T11:55:59.236976+00:00",
+    "first_seen": "2026-10-25T07:16:55.730066+00:00",
+    "last_seen": "2026-10-25T07:18:29.593616+00:00",
     "confidence_score": 60,
     "confidence_level": "medium",
     "mitre_attack": [
@@ -351,15 +531,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "2c7adad6-ce8d-4192-bb98-8a258b888e9f",
-    "value": "primarypath-langgraph",
+    "id": "9a5658b7-acd3-4b70-a25a-34ed8b9cbe39",
+    "value": "llama-index-tools-pidgeon",
     "indicator_type": "package-pypi",
     "source": "PyPI",
     "target_brand": "ai_ecosystem_library",
     "lure_type": "typosquat_dependency",
     "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:24.485118+00:00",
-    "last_seen": "2026-10-24T11:55:35.935602+00:00",
+    "first_seen": "2026-10-25T07:16:55.553633+00:00",
+    "last_seen": "2026-10-25T07:18:27.627317+00:00",
     "confidence_score": 60,
     "confidence_level": "medium",
     "mitre_attack": [
@@ -396,16 +576,16 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "a2e8e730-a764-44de-8890-001700fa9a49",
-    "value": "llmf",
+    "id": "5f853e77-dfa5-47a2-afd3-922ebde7ec0a",
+    "value": "langchain-pidgeon",
     "indicator_type": "package-pypi",
     "source": "PyPI",
     "target_brand": "ai_ecosystem_library",
     "lure_type": "typosquat_dependency",
     "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:24.485118+00:00",
-    "last_seen": "2026-10-24T11:55:35.896518+00:00",
-    "confidence_score": 50,
+    "first_seen": "2026-10-25T07:16:55.553630+00:00",
+    "last_seen": "2026-10-25T07:18:27.625893+00:00",
+    "confidence_score": 60,
     "confidence_level": "medium",
     "mitre_attack": [
       "T1566.002",
@@ -441,60 +621,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "0f398d66-b833-4d2f-981b-0d23ebea87c0",
-    "value": "@bash0816/claude-code",
-    "indicator_type": "package-npm",
-    "source": "npm",
-    "target_brand": "anthropic",
-    "lure_type": "lookalike_package",
-    "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:27.067077+00:00",
-    "last_seen": "2026-10-24T11:55:36.042301+00:00",
-    "confidence_score": 40,
-    "confidence_level": "low",
-    "mitre_attack": [
-      "T1566.002",
-      "T1036.005",
-      "T1195.001",
-      "T1059.006"
-    ],
-    "enrichment": {
-      "domain_age_days": null,
-      "registration_date": null,
-      "registrar": null,
-      "resolved_ips": [],
-      "asn": null,
-      "asn_org": null,
-      "country": null,
-      "has_download_link": false,
-      "download_extensions": [],
-      "has_login_form": false,
-      "urlscan_id": null,
-      "urlscan_screenshot_url": null,
-      "virustotal_detections": 0,
-      "virustotal_positives": 0,
-      "virustotal_link": null,
-      "shodan_ports": [],
-      "page_title": null
-    },
-    "tags": [
-      "ai-lure",
-      "anthropic",
-      "lookalike_package",
-      "trojanized-pypi/npm-dependency"
-    ],
-    "tlp": "TLP:CLEAR"
-  },
-  {
-    "id": "686e0a4c-e4d7-4f4f-8a0b-ba31eea8c116",
-    "value": "my-claude-code",
+    "id": "36e0df98-d148-4d0e-96a4-efabe93dd5bb",
+    "value": "itop-ai-assistant",
     "indicator_type": "package-pypi",
     "source": "PyPI",
-    "target_brand": "anthropic",
+    "target_brand": "general_ai_terms",
     "lure_type": "lookalike_package",
     "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:24.487070+00:00",
-    "last_seen": "2026-10-24T11:55:36.006816+00:00",
+    "first_seen": "2026-10-25T07:16:55.553794+00:00",
+    "last_seen": "2026-10-25T07:18:27.629398+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -524,112 +659,152 @@
     },
     "tags": [
       "ai-lure",
-      "anthropic",
+      "general_ai_terms",
       "lookalike_package",
       "trojanized-pypi/npm-dependency"
     ],
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "63c1ced5-c02c-4d18-90d4-0b97b3ad2bfe",
-    "value": "primarypath-claude-agent",
-    "indicator_type": "package-pypi",
-    "source": "PyPI",
-    "target_brand": "anthropic",
-    "lure_type": "lookalike_package",
-    "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:24.485118+00:00",
-    "last_seen": "2026-10-24T11:55:35.952970+00:00",
-    "confidence_score": 40,
-    "confidence_level": "low",
-    "mitre_attack": [
-      "T1566.002",
-      "T1036.005",
-      "T1195.001",
-      "T1059.006"
-    ],
-    "enrichment": {
-      "domain_age_days": null,
-      "registration_date": null,
-      "registrar": null,
-      "resolved_ips": [],
-      "asn": null,
-      "asn_org": null,
-      "country": null,
-      "has_download_link": false,
-      "download_extensions": [],
-      "has_login_form": false,
-      "urlscan_id": null,
-      "urlscan_screenshot_url": null,
-      "virustotal_detections": 0,
-      "virustotal_positives": 0,
-      "virustotal_link": null,
-      "shodan_ports": [],
-      "page_title": null
-    },
-    "tags": [
-      "ai-lure",
-      "anthropic",
-      "lookalike_package",
-      "trojanized-pypi/npm-dependency"
-    ],
-    "tlp": "TLP:CLEAR"
-  },
-  {
-    "id": "7d19d502-5a47-4537-ab0b-56441cffe94a",
-    "value": "primarypath-openai-agents",
-    "indicator_type": "package-pypi",
-    "source": "PyPI",
-    "target_brand": "openai",
-    "lure_type": "lookalike_package",
-    "associated_malware": "Trojanized PyPI/npm Dependency",
-    "first_seen": "2026-10-24T11:48:24.485118+00:00",
-    "last_seen": "2026-10-24T11:55:35.916898+00:00",
-    "confidence_score": 40,
-    "confidence_level": "low",
-    "mitre_attack": [
-      "T1566.002",
-      "T1036.005",
-      "T1195.001",
-      "T1059.006"
-    ],
-    "enrichment": {
-      "domain_age_days": null,
-      "registration_date": null,
-      "registrar": null,
-      "resolved_ips": [],
-      "asn": null,
-      "asn_org": null,
-      "country": null,
-      "has_download_link": false,
-      "download_extensions": [],
-      "has_login_form": false,
-      "urlscan_id": null,
-      "urlscan_screenshot_url": null,
-      "virustotal_detections": 0,
-      "virustotal_positives": 0,
-      "virustotal_link": null,
-      "shodan_ports": [],
-      "page_title": null
-    },
-    "tags": [
-      "ai-lure",
-      "openai",
-      "lookalike_package",
-      "trojanized-pypi/npm-dependency"
-    ],
-    "tlp": "TLP:CLEAR"
-  },
-  {
-    "id": "c17f2600-ee84-445c-8fd0-44862a92b0c9",
-    "value": "https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data",
-    "indicator_type": "url",
-    "source": "PhishTank",
-    "target_brand": "google_ai",
+    "id": "b6237855-48d4-48c4-a462-43da4d9cb9b1",
+    "value": "metrics.deepseek-r1-llama--8b.yotta-infrastructure.on-prem.clusters.s9t.link",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.288052+00:00",
-    "last_seen": "2026-10-24T11:55:35.871916+00:00",
+    "first_seen": "2026-10-25T07:16:55.449449+00:00",
+    "last_seen": "2026-10-25T07:18:27.623663+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 759,
+      "registration_date": "2024-09-25T14:45:12.306000+00:00",
+      "registrar": "NAMECHEAP",
+      "resolved_ips": [
+        "103.207.148.235"
+      ],
+      "asn": "AS140641",
+      "asn_org": "Yotta Network Services Private Limited",
+      "country": "India",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "6a2c86db-65d2-4dff-b50c-c99f3e74bc70",
+    "value": "http.deepseek-r1-llama--8b.yotta-infrastructure.on-prem.clusters.s9t.link",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449447+00:00",
+    "last_seen": "2026-10-25T07:18:27.444274+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 759,
+      "registration_date": "2024-09-25T14:45:12.306000+00:00",
+      "registrar": "NAMECHEAP",
+      "resolved_ips": [
+        "103.207.148.235"
+      ],
+      "asn": "AS140641",
+      "asn_org": "Yotta Network Services Private Limited",
+      "country": "India",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "873e497e-5129-4b27-b8e4-39a66084c115",
+    "value": "xn--deepseek--ju6ni31gct3a1ujuq1fqdp.netlib.re",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449443+00:00",
+    "last_seen": "2026-10-25T07:18:26.920215+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 4895,
+      "registration_date": "2013-05-30T16:34:38+00:00",
+      "registrar": "OVH",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "72f41a49-ab31-4ce4-a662-559df3458cf0",
+    "value": "deepseek--dev.acme.arphub.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449441+00:00",
+    "last_seen": "2026-10-25T07:18:25.441012+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -641,24 +816,3097 @@
       "registration_date": null,
       "registrar": null,
       "resolved_ips": [
-        "108.156.147.2",
-        "108.156.147.124",
-        "108.156.147.127",
-        "108.156.147.5"
+        "216.198.79.1",
+        "64.29.17.1"
       ],
       "asn": "AS16509",
-      "asn_org": "AWS CloudFront (GLOBAL)",
-      "country": "Nigeria",
+      "asn_org": "Lefkoff Industries",
+      "country": "United States",
       "has_download_link": false,
       "download_extensions": [],
       "has_login_form": false,
-      "urlscan_id": "01a16d98-1e33-7299-8541-f6a4e9be9fe3",
-      "urlscan_screenshot_url": "https://urlscan.io/screenshots/01a16d98-1e33-7299-8541-f6a4e9be9fe3.png",
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
       "virustotal_detections": 0,
       "virustotal_positives": 0,
       "virustotal_link": null,
       "shodan_ports": [],
       "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "c9ece040-1b51-4176-9826-8c8f28b91a44",
+    "value": "deepseek-r1-1-5b--poc.ssegning.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449439+00:00",
+    "last_seen": "2026-10-25T07:18:25.149926+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 2135,
+      "registration_date": "2020-12-19T20:38:37+00:00",
+      "registrar": "GoDaddy.com, LLC",
+      "resolved_ips": [
+        "172.67.162.154",
+        "104.21.15.123"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "a8e8e4b9-3ac9-4087-b048-893cbb809d26",
+    "value": "deepseek--salonnz-intern--intern001.coder.salonnz.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449435+00:00",
+    "last_seen": "2026-10-25T07:18:24.737749+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1846,
+      "registration_date": "2021-10-04T09:18:25+00:00",
+      "registrar": "Spaceship, Inc.",
+      "resolved_ips": [
+        "77.237.247.203"
+      ],
+      "asn": "AS51167",
+      "asn_org": "Contabo GmbH",
+      "country": "France",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "ab33e3ef-4b78-42f4-9a42-389624e645b3",
+    "value": "deepseek--salonnz-admin--indrajeet.coder.salonnz.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449432+00:00",
+    "last_seen": "2026-10-25T07:18:24.567812+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1846,
+      "registration_date": "2021-10-04T09:18:25+00:00",
+      "registrar": "Spaceship, Inc.",
+      "resolved_ips": [
+        "77.237.247.203"
+      ],
+      "asn": "AS51167",
+      "asn_org": "Contabo GmbH",
+      "country": "France",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "e48e760b-b982-4a7f-ad60-9bd0858f2cb6",
+    "value": "deepseek--salonnz-ai-agent-workspace--salonnz-ai-agent.coder.salonnz.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449429+00:00",
+    "last_seen": "2026-10-25T07:18:24.400392+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1846,
+      "registration_date": "2021-10-04T09:18:25+00:00",
+      "registrar": "Spaceship, Inc.",
+      "resolved_ips": [
+        "77.237.247.203"
+      ],
+      "asn": "AS51167",
+      "asn_org": "Contabo GmbH",
+      "country": "France",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "039945fd-41f4-4f6f-bb2d-17d3c73b24f2",
+    "value": "deepseek--harness.cc.cd",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449425+00:00",
+    "last_seen": "2026-10-25T07:18:24.060823+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.21.21.174",
+        "172.67.199.168"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "2585a44d-f7da-4233-a75d-049fbe64d0d3",
+    "value": "deepseek-harness--v1.sandbox.xsolla.dev",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449422+00:00",
+    "last_seen": "2026-10-25T07:18:23.803644+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 2693,
+      "registration_date": "2019-06-10T12:37:33.374000+00:00",
+      "registrar": "101domain, Inc.",
+      "resolved_ips": [
+        "35.236.97.181"
+      ],
+      "asn": "AS396982",
+      "asn_org": "Google Cloud (us-west2)",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "ba93e624-ba1b-4696-bb34-23e7eeba9402",
+    "value": "deepseek--dev.acme.guansd.cn",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449419+00:00",
+    "last_seen": "2026-10-25T07:18:23.433974+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "119.23.75.145"
+      ],
+      "asn": "AS37963",
+      "asn_org": "Aliyun Computing Co., LTD",
+      "country": "China",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "474f4cc7-5fb5-43b3-b294-6ca25fb82cc9",
+    "value": "deepseek-creatbyword--v0-3.pages.dev",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "deepseek",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:55.449396+00:00",
+    "last_seen": "2026-10-25T07:18:22.944410+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 2244,
+      "registration_date": "2020-09-02T02:33:29.228000+00:00",
+      "registrar": "CloudFlare, Inc.",
+      "resolved_ips": [
+        "172.66.44.182",
+        "172.66.47.74"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "deepseek",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "9d295c62-ffc2-42cf-8ff0-7b7a89475484",
+    "value": "fea-logger-i--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997844+00:00",
+    "last_seen": "2026-10-25T07:18:22.447623+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "659d7bb2-e835-47da-a295-bf69cfed2dc6",
+    "value": "copilot-postgres--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997839+00:00",
+    "last_seen": "2026-10-25T07:18:22.223899+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "f25cb2d5-c60c-40e2-9765-a4f305a6287e",
+    "value": "copilot-redis--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997837+00:00",
+    "last_seen": "2026-10-25T07:18:22.039763+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "4d82b6b2-b938-479a-b696-293de7b220d3",
+    "value": "keenan-tracking-copilot--keenan-eats-tracker.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997824+00:00",
+    "last_seen": "2026-10-25T07:18:21.744573+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.25"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "af6e3ec7-f031-400b-9b72-f89560169534",
+    "value": "adhoc-copilot--copilot-a5ced.europe-west4.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997821+00:00",
+    "last_seen": "2026-10-25T07:18:21.387530+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.116"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "e0be8c47-9497-4ce0-a822-7b935522fef5",
+    "value": "bug-nav-capa--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997818+00:00",
+    "last_seen": "2026-10-25T07:18:21.154038+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "55c7664f-c87e-48cd-9dff-efeb849d9613",
+    "value": "anki-copilot-web-app--anki-copilot.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997815+00:00",
+    "last_seen": "2026-10-25T07:18:20.964931+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.25"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "bf63950b-ff2b-4530-8964-994dd1358947",
+    "value": "revit-copilot-backend--revit-copilot-dev.europe-west4.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997813+00:00",
+    "last_seen": "2026-10-25T07:18:20.646315+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.125"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "7987c20a-e1d0-4362-b260-7991f59b8af4",
+    "value": "copilot--on1-navigators.asia-east1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997807+00:00",
+    "last_seen": "2026-10-25T07:18:20.311382+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.69"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "f30bf04d-a7b4-4539-815c-63c54aa372be",
+    "value": "dk-copilot-sd-2374-add-test--7fb806-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997804+00:00",
+    "last_seen": "2026-10-25T07:18:19.991537+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.5.36",
+        "172.67.74.115",
+        "104.26.4.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "820f07d9-1474-434e-b49b-ab948d0614d0",
+    "value": "se-copilot-sd-2374-add-test--7fb806-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997801+00:00",
+    "last_seen": "2026-10-25T07:18:19.826090+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.4.36",
+        "172.67.74.115",
+        "104.26.5.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "793421dc-6471-465a-9136-a2a7025dc158",
+    "value": "copilot--flyland-89b64.europe-west4.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997792+00:00",
+    "last_seen": "2026-10-25T07:18:19.647749+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.117"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "04cbf21d-a650-4612-993a-8c59f86e5de5",
+    "value": "finance-copilot--finance-copilot-f60ca.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997790+00:00",
+    "last_seen": "2026-10-25T07:18:19.217805+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.23"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "dcfb7933-87a7-4de5-b2cc-1ae29e9b1841",
+    "value": "chat-telemet--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997785+00:00",
+    "last_seen": "2026-10-25T07:18:18.881157+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "172.66.173.94",
+        "104.20.17.165"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "333728cc-792f-4a30-9d80-f8e0e05c91bc",
+    "value": "dk-copilot-ensure-paratests--21af2d-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997780+00:00",
+    "last_seen": "2026-10-25T07:18:18.722260+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.5.36",
+        "104.26.4.36",
+        "172.67.74.115"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "0a80ccee-be96-41ff-a826-d059c66d5875",
+    "value": "maxq-copilot--max-q-project-pilot.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997777+00:00",
+    "last_seen": "2026-10-25T07:18:18.548875+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.23"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "8e404bba-5593-4e3f-80f3-1f237fb9a4f4",
+    "value": "career-copilot--interview-buddy-d1b36.asia-east1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997773+00:00",
+    "last_seen": "2026-10-25T07:18:18.292557+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.72"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "c856e9b9-09f3-442e-a34d-d146e1331a40",
+    "value": "bug-msg-noht--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997771+00:00",
+    "last_seen": "2026-10-25T07:18:17.995205+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "0a687382-091e-4525-bb31-3e3f96cd34a1",
+    "value": "revit-copilot-backend--revit-copilot-prod.europe-west4.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997768+00:00",
+    "last_seen": "2026-10-25T07:18:17.775667+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.119"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "b3c057b9-949b-4ddc-aeb7-2ef5d477972d",
+    "value": "hr-copilot-navigator--hr-co-pilot-navigator.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997766+00:00",
+    "last_seen": "2026-10-25T07:18:17.405398+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.16"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "18b8eca7-2ca4-442d-9816-ab86fde5d9c8",
+    "value": "copilot-move--f9aa3265-dev.gateway.dev-codesphere.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997761+00:00",
+    "last_seen": "2026-10-25T07:18:16.753277+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "54.37.76.17"
+      ],
+      "asn": "AS16276",
+      "asn_org": "OVH GmbH",
+      "country": "Germany",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "3b1908b8-f13a-4d87-9fd3-4f5dfbbe3d7f",
+    "value": "copilot-move--f9aa3265-dev.dev-codesphere.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997759+00:00",
+    "last_seen": "2026-10-25T07:18:16.568506+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "54.37.76.17"
+      ],
+      "asn": "AS16276",
+      "asn_org": "OVH GmbH",
+      "country": "Germany",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "3f1343cf-357d-4bf0-95cb-c4a85b8e6c42",
+    "value": "7-copilot-move--f9aa3265-dev.gateway.dev-codesphere.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997757+00:00",
+    "last_seen": "2026-10-25T07:18:16.407008+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "54.37.76.17"
+      ],
+      "asn": "AS16276",
+      "asn_org": "OVH GmbH",
+      "country": "Germany",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "f6e70334-c81f-4d51-ad97-8c0343d0703e",
+    "value": "7.copilot-move--f9aa3265-dev.dev-codesphere.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997756+00:00",
+    "last_seen": "2026-10-25T07:18:16.208393+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "54.37.76.17"
+      ],
+      "asn": "AS16276",
+      "asn_org": "OVH GmbH",
+      "country": "Germany",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "0c30e782-47e2-4c46-9dec-eca1a1a6342b",
+    "value": "7-copilot-move--f9aa3265-dev.dev-codesphere.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997754+00:00",
+    "last_seen": "2026-10-25T07:18:16.039597+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "54.37.76.17"
+      ],
+      "asn": "AS16276",
+      "asn_org": "OVH GmbH",
+      "country": "Germany",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "1697a95b-f0ca-42db-899a-068c7a37e2b1",
+    "value": "copilot-payment--sheet-copilot-dev.europe-west4.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997751+00:00",
+    "last_seen": "2026-10-25T07:18:15.737770+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.126"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "0e4a0415-1481-40ae-be13-07328709db25",
+    "value": "se-copilot-sd-2221-add-data--926d42-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997749+00:00",
+    "last_seen": "2026-10-25T07:18:15.429688+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.5.36",
+        "172.67.74.115",
+        "104.26.4.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "b2866c82-d7cd-4573-a036-5226bc234378",
+    "value": "dk-copilot-sd-2221-add-data--926d42-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997746+00:00",
+    "last_seen": "2026-10-25T07:18:15.193303+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.4.36",
+        "172.67.74.115",
+        "104.26.5.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "6f448914-2d11-42f9-aadc-b1515b11ec74",
+    "value": "fea-use-hist--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997743+00:00",
+    "last_seen": "2026-10-25T07:18:14.984154+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "e0374ecc-6164-4391-8776-f5113b7f521a",
+    "value": "copilot-vision--vision-203d9.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997741+00:00",
+    "last_seen": "2026-10-25T07:18:14.778103+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.29"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "b0f01320-976b-44c9-ad22-46b656e0a22a",
+    "value": "radiology-copilot--radiology-copilot-eda04.asia-east1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997738+00:00",
+    "last_seen": "2026-10-25T07:18:14.398644+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.77"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "cfd4e642-aeba-4e13-8aff-f711913fc779",
+    "value": "copilot-metrics-viewer--yourgestureapp.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997736+00:00",
+    "last_seen": "2026-10-25T07:18:14.095363+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.19"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "036c358e-487e-41c5-a106-9b0b9be0d991",
+    "value": "fix-vulnerar--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997733+00:00",
+    "last_seen": "2026-10-25T07:18:13.570784+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "532f65fb-6713-40b4-83d0-9b3d5aaeebf7",
+    "value": "dk-copilot-sd-1099-fix-cart--922efc-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997730+00:00",
+    "last_seen": "2026-10-25T07:18:13.346610+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.4.36",
+        "104.26.5.36",
+        "172.67.74.115"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "d93f46c5-a1f6-4be3-af4e-32e9b6a2f421",
+    "value": "copilot--f5.dev-inventory-planning.telligence.itv.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997719+00:00",
+    "last_seen": "2026-10-25T07:18:13.052600+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 11681,
+      "registration_date": "1994-11-01T05:00:00+00:00",
+      "registrar": "CSC Corporate Domains, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "8873b7c8-f9e3-4237-9767-2ab0cbe43bc4",
+    "value": "copilot--a7.dev-inventory-planning.telligence.itv.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997716+00:00",
+    "last_seen": "2026-10-25T07:18:12.683267+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 11681,
+      "registration_date": "1994-11-01T05:00:00+00:00",
+      "registrar": "CSC Corporate Domains, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "fcff7b98-d250-4235-9768-073c4bdd2075",
+    "value": "se-copilot-sd-1099-fix-cart--922efc-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997714+00:00",
+    "last_seen": "2026-10-25T07:18:12.443340+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.4.36",
+        "104.26.5.36",
+        "172.67.74.115"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "4924e481-2756-43f0-b78c-724f2eb69730",
+    "value": "bug-explain--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997705+00:00",
+    "last_seen": "2026-10-25T07:18:11.795820+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "60c2c490-c6a6-45f8-85f6-dd361e513a42",
+    "value": "copilot-redis-dev--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997702+00:00",
+    "last_seen": "2026-10-25T07:18:11.588610+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "eb3f3202-597d-487c-b803-d35c6b066a0f",
+    "value": "copilot-postgres-dev--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997700+00:00",
+    "last_seen": "2026-10-25T07:18:11.405930+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "dd458578-32bd-4dd3-8baf-84db6b199af7",
+    "value": "copilot-vert--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997697+00:00",
+    "last_seen": "2026-10-25T07:18:11.224053+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "a8724d7c-f5c7-4f35-b898-0525a6e7bc94",
+    "value": "copilot-postgres-staging--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997689+00:00",
+    "last_seen": "2026-10-25T07:18:10.574440+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "cae1fb01-46ad-4ae6-8e72-dbfa10b5a425",
+    "value": "copilot-redis-staging--c7fjs469kbfs.xljp7lgzl4.code.run",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997686+00:00",
+    "last_seen": "2026-10-25T07:18:10.349911+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "b434ef55-5c48-4ab9-95c6-696961cf5a6e",
+    "value": "copilotdev--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997674+00:00",
+    "last_seen": "2026-10-25T07:18:10.089594+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "02c578f4-2b85-4022-b87f-f5c8d3ecd383",
+    "value": "post-copilot--post-copilot.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997672+00:00",
+    "last_seen": "2026-10-25T07:18:09.790198+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.21"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "eb1fa519-af08-4740-8514-54b6ea53d81e",
+    "value": "factory-copilot--coralreef.typestate.dev",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997669+00:00",
+    "last_seen": "2026-10-25T07:18:09.287308+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "199f04c7-8dd5-43f2-b549-05d949dc61c8",
+    "value": "coralreef-factory-copilot--coralreef.typestate.dev",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997666+00:00",
+    "last_seen": "2026-10-25T07:18:09.016088+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "91ba1674-a22b-48db-9879-47ba48dab3a5",
+    "value": "coralreef-sales-copilot--coralreef.typestate.dev",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997662+00:00",
+    "last_seen": "2026-10-25T07:18:08.770493+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "67922cd8-3871-4f3a-8eed-427f7356cb71",
+    "value": "dk-copilot-update-jira-task--3c0006-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997660+00:00",
+    "last_seen": "2026-10-25T07:18:08.455536+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "172.67.74.115",
+        "104.26.4.36",
+        "104.26.5.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "d43d7e33-117d-4681-8c0f-cd9fdb6ab2dd",
+    "value": "se-copilot-update-jira-task--3c0006-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997657+00:00",
+    "last_seen": "2026-10-25T07:18:08.240073+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "172.67.74.115",
+        "104.26.5.36",
+        "104.26.4.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "6246203c-5ab7-4245-933b-9fe8d8830953",
+    "value": "commit-copilot-ui--pa-sase-msp-prod.us-central1.hosted.app",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997655+00:00",
+    "last_seen": "2026-10-25T07:18:07.985670+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "35.219.200.31"
+      ],
+      "asn": "AS43515",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "9411921a-6d4d-4c52-a0c2-d0c5f8eff201",
+    "value": "ds-old-model--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997653+00:00",
+    "last_seen": "2026-10-25T07:18:07.544688+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "914c3389-3ff7-4689-a891-45d30bb4e2f7",
+    "value": "copilotdev-i--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997651+00:00",
+    "last_seen": "2026-10-25T07:18:07.360097+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "083ccc6b-4293-4bf7-b2ee-efd88af6dfd1",
+    "value": "pr-1464--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997649+00:00",
+    "last_seen": "2026-10-25T07:18:07.151946+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "172.66.173.94",
+        "104.20.17.165"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "cfb94c21-4a39-4f1d-ba03-564eb261c780",
+    "value": "ds-test2-cop--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997647+00:00",
+    "last_seen": "2026-10-25T07:18:06.915209+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "48a606ce-8425-4c00-8aef-4858e613ddc5",
+    "value": "pr-1446--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997645+00:00",
+    "last_seen": "2026-10-25T07:18:06.648087+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "6108e1a5-aae3-4b8f-ad1e-acfd1b6712ae",
+    "value": "html-fetch-a--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997642+00:00",
+    "last_seen": "2026-10-25T07:18:06.392712+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "d12860e9-b809-4aa4-bcfe-734c701adf58",
+    "value": "ds-test-copi--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997639+00:00",
+    "last_seen": "2026-10-25T07:18:06.104523+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "104.20.17.165",
+        "172.66.173.94"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "5e18871b-8752-468b-9fbd-c34cd4ea08d5",
+    "value": "copilot--57.dev-inventory-planning.telligence.itv.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997636+00:00",
+    "last_seen": "2026-10-25T07:18:05.784460+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 11681,
+      "registration_date": "1994-11-01T05:00:00+00:00",
+      "registrar": "CSC Corporate Domains, Inc.",
+      "resolved_ips": [],
+      "asn": null,
+      "asn_org": null,
+      "country": null,
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "38d42934-9b6a-4eac-9ab7-4ba3d3a0e972",
+    "value": "a11y-copilot--a11y-copilot--test.acsb-test.com",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997631+00:00",
+    "last_seen": "2026-10-25T07:18:05.212141+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": 1857,
+      "registration_date": "2021-09-23T14:23:59+00:00",
+      "registrar": "Cloudflare, Inc.",
+      "resolved_ips": [
+        "172.66.173.94",
+        "104.20.17.165"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "d29f4989-e2ce-4c07-9b99-0eec119a7fad",
+    "value": "se-copilot-ensure-paratests--21af2d-magento.stage.supervin.io",
+    "indicator_type": "domain",
+    "source": "crt.sh",
+    "target_brand": "microsoft_copilot",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:16:16.997602+00:00",
+    "last_seen": "2026-10-25T07:18:04.859882+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "104.26.4.36",
+        "172.67.74.115",
+        "104.26.5.36"
+      ],
+      "asn": "AS13335",
+      "asn_org": "Cloudflare, Inc.",
+      "country": "Canada",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": null,
+      "urlscan_screenshot_url": null,
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": null
+    },
+    "tags": [
+      "ai-lure",
+      "microsoft_copilot",
+      "brand_impersonation"
+    ],
+    "tlp": "TLP:CLEAR"
+  },
+  {
+    "id": "bce73ff5-d431-47b9-9c3d-2e48def3ca22",
+    "value": "https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data",
+    "indicator_type": "url",
+    "source": "PhishTank",
+    "target_brand": "google_ai",
+    "lure_type": "brand_impersonation",
+    "associated_malware": "Unattributed AI Lure",
+    "first_seen": "2026-10-25T07:14:13.676763+00:00",
+    "last_seen": "2026-10-25T07:18:04.539127+00:00",
+    "confidence_score": 40,
+    "confidence_level": "low",
+    "mitre_attack": [
+      "T1566.002",
+      "T1036.005"
+    ],
+    "enrichment": {
+      "domain_age_days": null,
+      "registration_date": null,
+      "registrar": null,
+      "resolved_ips": [
+        "52.85.132.103",
+        "52.85.132.49",
+        "52.85.132.20",
+        "52.85.132.14"
+      ],
+      "asn": "AS16509",
+      "asn_org": "AWS CloudFront (GLOBAL)",
+      "country": "United States",
+      "has_download_link": false,
+      "download_extensions": [],
+      "has_login_form": false,
+      "urlscan_id": "01a171aa-a123-745b-8c89-441fa5295485",
+      "urlscan_screenshot_url": "https://urlscan.io/screenshots/01a171aa-a123-745b-8c89-441fa5295485.png",
+      "virustotal_detections": 0,
+      "virustotal_positives": 0,
+      "virustotal_link": null,
+      "shodan_ports": [],
+      "page_title": "Social Media Page"
     },
     "tags": [
       "ai-lure",
@@ -668,15 +3916,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "7f66db27-7523-4fcf-a7de-115452e3f0c5",
+    "id": "46986c1d-bb0f-416e-858e-9cf72da9f964",
     "value": "https://openai-onlinecfg.dafleek.com/ai/app/key.php?",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "openai",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.160261+00:00",
-    "last_seen": "2026-10-24T11:55:33.024673+00:00",
+    "first_seen": "2026-10-25T07:14:13.660077+00:00",
+    "last_seen": "2026-10-25T07:18:03.804991+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -684,7 +3932,7 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 1863,
+      "domain_age_days": 1864,
       "registration_date": "2021-09-16T14:38:28+00:00",
       "registrar": "GoDaddy.com, LLC",
       "resolved_ips": [],
@@ -710,15 +3958,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "fcbfa3fa-59f0-4517-9a20-3f54a0cb57c2",
+    "id": "8449ff7b-b57e-4422-85a5-fd145f8f5535",
     "value": "https://claude.serv7231.pro/captcha.php",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "anthropic",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.149900+00:00",
-    "last_seen": "2026-10-24T11:55:30.287031+00:00",
+    "first_seen": "2026-10-25T07:14:13.658655+00:00",
+    "last_seen": "2026-10-25T07:18:03.365878+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -726,15 +3974,15 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 191,
+      "domain_age_days": 192,
       "registration_date": "2026-04-15T15:50:07.538000+00:00",
       "registrar": "Dynadot Inc",
       "resolved_ips": [
-        "188.114.97.0",
-        "188.114.96.0"
+        "172.67.194.141",
+        "104.21.84.152"
       ],
       "asn": "AS13335",
-      "asn_org": "CloudFlare, Inc.",
+      "asn_org": "Cloudflare, Inc.",
       "country": "Canada",
       "has_download_link": false,
       "download_extensions": [],
@@ -755,15 +4003,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "92504b85-df7d-43aa-b5ea-8940a9e96bbc",
+    "id": "6d3b3063-2d20-411a-9192-f4410443dcb7",
     "value": "https://claude.serv7231.pro/",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "anthropic",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.149900+00:00",
-    "last_seen": "2026-10-24T11:55:29.944649+00:00",
+    "first_seen": "2026-10-25T07:14:13.658653+00:00",
+    "last_seen": "2026-10-25T07:18:03.140056+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -771,15 +4019,15 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 191,
+      "domain_age_days": 192,
       "registration_date": "2026-04-15T15:50:07.538000+00:00",
       "registrar": "Dynadot Inc",
       "resolved_ips": [
-        "188.114.97.0",
-        "188.114.96.0"
+        "104.21.84.152",
+        "172.67.194.141"
       ],
       "asn": "AS13335",
-      "asn_org": "CloudFlare, Inc.",
+      "asn_org": "Cloudflare, Inc.",
       "country": "Canada",
       "has_download_link": false,
       "download_extensions": [],
@@ -800,59 +4048,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "68295e04-ccdc-4efa-898e-efb99991e0b6",
-    "value": "https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf",
-    "indicator_type": "url",
-    "source": "PhishTank",
-    "target_brand": "general_ai_terms",
-    "lure_type": "brand_impersonation",
-    "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.126742+00:00",
-    "last_seen": "2026-10-24T11:55:19.236338+00:00",
-    "confidence_score": 40,
-    "confidence_level": "low",
-    "mitre_attack": [
-      "T1566.002",
-      "T1036.005"
-    ],
-    "enrichment": {
-      "domain_age_days": null,
-      "registration_date": null,
-      "registrar": null,
-      "resolved_ips": [
-        "146.75.91.7"
-      ],
-      "asn": "AS54113",
-      "asn_org": "Fastly, Inc",
-      "country": "Portugal",
-      "has_download_link": false,
-      "download_extensions": [],
-      "has_login_form": false,
-      "urlscan_id": "01a16cf3-36e9-74ed-88f9-98c588c1b705",
-      "urlscan_screenshot_url": "https://urlscan.io/screenshots/01a16cf3-36e9-74ed-88f9-98c588c1b705.png",
-      "virustotal_detections": 0,
-      "virustotal_positives": 0,
-      "virustotal_link": null,
-      "shodan_ports": [],
-      "page_title": "Natan Novum \u00b7 Product designer"
-    },
-    "tags": [
-      "ai-lure",
-      "general_ai_terms",
-      "brand_impersonation"
-    ],
-    "tlp": "TLP:CLEAR"
-  },
-  {
-    "id": "c9417d99-a94d-4a14-88f1-c8916183c7ee",
+    "id": "1f117b78-e2d6-46f0-9829-307eedf4d70e",
     "value": "https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "openai",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.108044+00:00",
-    "last_seen": "2026-10-24T11:55:17.662114+00:00",
+    "first_seen": "2026-10-25T07:14:13.548487+00:00",
+    "last_seen": "2026-10-25T07:18:01.790157+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -860,7 +4064,7 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 1026,
+      "domain_age_days": 1027,
       "registration_date": "2024-01-02T02:15:11+00:00",
       "registrar": "eNom, LLC",
       "resolved_ips": [
@@ -888,15 +4092,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "0ece98d3-be04-4d01-8fdd-95296bb6720a",
+    "id": "76726c09-182f-4687-93b2-661772675a31",
     "value": "https://open-chtgptrenew.com/refu/chatgpt/",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "openai",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.086758+00:00",
-    "last_seen": "2026-10-24T11:55:14.826796+00:00",
+    "first_seen": "2026-10-25T07:14:13.544786+00:00",
+    "last_seen": "2026-10-25T07:18:01.162707+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -904,7 +4108,7 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 143,
+      "domain_age_days": 144,
       "registration_date": "2026-06-02T23:04:23+00:00",
       "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
       "resolved_ips": [],
@@ -930,60 +4134,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "2b519cdb-18c2-4624-bdf5-2fcdbf19bf35",
-    "value": "https://corporation-gemini.wixstudio.com/us-en",
-    "indicator_type": "url",
-    "source": "PhishTank",
-    "target_brand": "google_ai",
-    "lure_type": "brand_impersonation",
-    "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:30.083401+00:00",
-    "last_seen": "2026-10-24T11:55:11.673379+00:00",
-    "confidence_score": 40,
-    "confidence_level": "low",
-    "mitre_attack": [
-      "T1566.002",
-      "T1036.005"
-    ],
-    "enrichment": {
-      "domain_age_days": 3597,
-      "registration_date": "2016-12-17T19:23:35+00:00",
-      "registrar": "GoDaddy.com, LLC",
-      "resolved_ips": [
-        "162.159.143.12",
-        "172.66.3.8"
-      ],
-      "asn": "AS13335",
-      "asn_org": "Cloudflare, Inc.",
-      "country": "Canada",
-      "has_download_link": false,
-      "download_extensions": [],
-      "has_login_form": false,
-      "urlscan_id": null,
-      "urlscan_screenshot_url": null,
-      "virustotal_detections": 0,
-      "virustotal_positives": 0,
-      "virustotal_link": null,
-      "shodan_ports": [],
-      "page_title": null
-    },
-    "tags": [
-      "ai-lure",
-      "google_ai",
-      "brand_impersonation"
-    ],
-    "tlp": "TLP:CLEAR"
-  },
-  {
-    "id": "56bd0ae7-1ac2-4fff-9eab-dd94729fb19d",
+    "id": "01905581-af4e-4aef-9dd6-64f27201ecc5",
     "value": "http://gemini-alarmes.com",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "google_ai",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:29.896658+00:00",
-    "last_seen": "2026-10-24T11:55:08.946806+00:00",
+    "first_seen": "2026-10-25T07:14:13.519114+00:00",
+    "last_seen": "2026-10-25T07:18:00.732774+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -991,7 +4150,7 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 429,
+      "domain_age_days": 430,
       "registration_date": "2025-08-21T06:52:25+00:00",
       "registrar": "Gname.com Pte. Ltd.",
       "resolved_ips": [],
@@ -1017,15 +4176,15 @@
     "tlp": "TLP:CLEAR"
   },
   {
-    "id": "ad6e1556-a34a-4451-bb16-78e58577f1be",
+    "id": "453029a4-c0e9-45cd-96fa-9424bea7d244",
     "value": "https://gemini-balance.yahou2011.com/",
     "indicator_type": "url",
     "source": "PhishTank",
     "target_brand": "google_ai",
     "lure_type": "brand_impersonation",
     "associated_malware": "Unattributed AI Lure",
-    "first_seen": "2026-10-24T11:45:29.858915+00:00",
-    "last_seen": "2026-10-24T11:55:06.838297+00:00",
+    "first_seen": "2026-10-25T07:14:13.509075+00:00",
+    "last_seen": "2026-10-25T07:18:00.330239+00:00",
     "confidence_score": 40,
     "confidence_level": "low",
     "mitre_attack": [
@@ -1033,7 +4192,7 @@
       "T1036.005"
     ],
     "enrichment": {
-      "domain_age_days": 2404,
+      "domain_age_days": 2405,
       "registration_date": "2020-03-25T06:32:36+00:00",
       "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
       "resolved_ips": [],
