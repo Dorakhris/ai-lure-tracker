@@ -21,11 +21,11 @@
     <h1>🛡️ AI Lure Tracker CTI Brief</h1>
     <span style="background:#238636; color:#fff; padding:6px 12px; border-radius:16px; font-weight:bold;">TLP:CLEAR</span>
   </div>
-  <p><strong>Period:</strong> 2026-W42 | <strong>Total Monitored Indicators:</strong> 96 | <strong>High-Confidence Hits:</strong> 7</p>
+  <p><strong>Period:</strong> 2026-W42 | <strong>Total Monitored Indicators:</strong> 24 | <strong>High-Confidence Hits:</strong> 7</p>
   <hr style="border:1px solid #30363d;">
   <div id="content">
     <pre style="white-space: pre-wrap; font-family: inherit; color: inherit; background: transparent; border: none; padding: 0;"># 🛡️ AI Lure Tracker - Weekly Threat Intelligence Brief
-**Report Period:** 2026-W42 | **Published:** October 25, 2026 | **Classification:** TLP:CLEAR  
+**Report Period:** 2026-W42 | **Published:** October 24, 2026 | **Classification:** TLP:CLEAR  
 **Prepared by:** AI Lure Tracker CTI Initiative
 
 ---
@@ -35,10 +35,10 @@
 During the period of **2026-W42**, threat actors continued aggressive opportunistic exploitation of generative AI brands and agentic frameworks. The primary attack vectors remain **SEO poisoning, malicious sponsored ads, and typosquatted package ecosystems** leading victims to fraudulent AI landing sites delivering **infostealers** (notably **LummaC2**, **Stealc**, and **AMOS Stealer** for macOS).
 
 ### Key Metrics
-- **Total Tracked Malicious Infrastructure:** 96 indicators
+- **Total Tracked Malicious Infrastructure:** 24 indicators
 - **High-Confidence Indicators (Actionable Blocks):** 7 (Score ≥ 75%)
-- **Primary Delivery Vector:** Trojanized Desktop Installers masquerading as ChatGPT, Claude, and Gemini (8 incidents).
-- **Dominant Abused AI Brand:** **microsoft_copilot** (64 hits).
+- **Primary Delivery Vector:** Trojanized Desktop Installers masquerading as ChatGPT, Claude, and Gemini (6 incidents).
+- **Dominant Abused AI Brand:** **anthropic** (6 hits).
 - **Ecosystem Poisoning:** Lookalike packages identified in PyPI and npm registries targeting AI developer tooling.
 
 ---
@@ -49,15 +49,14 @@ Threat actors target the brands with the highest search volume and recent media 
 
 | Brand / Ecosystem | Total Detections | Share (%) |
 | :--- | :--- | :--- |
-| **MICROSOFT_COPILOT** | 64 | 66.7% |
-| **DEEPSEEK** | 13 | 13.5% |
-| **OPENAI** | 5 | 5.2% |
-| **GOOGLE_AI** | 4 | 4.2% |
-| **ANTHROPIC** | 3 | 3.1% |
-| **AI_ECOSYSTEM_LIBRARY** | 3 | 3.1% |
-| **GENERAL_AI_TERMS** | 2 | 2.1% |
-| **MIDJOURNEY** | 1 | 1.0% |
-| **OLLAMA** | 1 | 1.0% |
+| **ANTHROPIC** | 6 | 25.0% |
+| **OPENAI** | 6 | 25.0% |
+| **GOOGLE_AI** | 5 | 20.8% |
+| **AI_ECOSYSTEM_LIBRARY** | 3 | 12.5% |
+| **MIDJOURNEY** | 1 | 4.2% |
+| **OLLAMA** | 1 | 4.2% |
+| **DEEPSEEK** | 1 | 4.2% |
+| **GENERAL_AI_TERMS** | 1 | 4.2% |
 
 ---
 
@@ -68,25 +67,25 @@ Attackers consistently leverage cheap, privacy-shielded registrars and bulletpro
 ### Top Malicious ASNs & Hosting Providers
 | ASN & Organization | Active Indicators | Representative Infrastructure |
 | :--- | :--- | :--- |
-| `Unresolved / Cloudflare CDN` | 36 | `midjourney-v6-pc-crack.buzz, https://gemini-advanced-ai-setup.xyz/login.php` |
-| `AS13335 - Cloudflare, Inc.` | 24 | `deepseek-r1-1-5b--poc.ssegning.com, deepseek--harness.cc.cd` |
-| `AS43515 - Google LLC` | 20 | `recruiter-copilot-client--coherent-voice-301813.asia-southeast1.hosted.app, event-copilot-prod--event-copilot-client.us-central1.hosted.app` |
-| `AS16276 - OVH GmbH` | 5 | `copilot-move--f9aa3265-dev.gateway.dev-codesphere.com, copilot-move--f9aa3265-dev.dev-codesphere.com` |
-| `AS51167 - Contabo GmbH` | 3 | `deepseek--salonnz-intern--intern001.coder.salonnz.com, deepseek--salonnz-admin--indrajeet.coder.salonnz.com` |
+| `Unresolved / Cloudflare CDN` | 18 | `midjourney-v6-pc-crack.buzz, https://gemini-advanced-ai-setup.xyz/login.php` |
+| `AS13335 - CloudFlare, Inc.` | 2 | `https://claude.serv7231.pro/captcha.php, https://claude.serv7231.pro/` |
+| `AS16509 - AWS CloudFront (GLOBAL)` | 1 | `https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data` |
+| `AS54113 - Fastly, Inc` | 1 | `https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf` |
+| `AS20860 - iomart Hosting Ltd` | 1 | `https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645` |
 
 ### Top Abused TLDs
 | Top-Level Domain (TLD) | Total Domains |
 | :--- | :--- |
-| `.com` | 30 |
-| `.app` | 20 |
-| `.io` | 11 |
-| `.run` | 6 |
-| `.dev` | 5 |
 | `.php` | 2 |
-| `.link` | 2 |
 | `.buzz` | 1 |
 | `.exe` | 1 |
 | `.site` | 1 |
+| `.lat` | 1 |
+| `.top` | 1 |
+| `.php?` | 1 |
+| `.pdf` | 1 |
+| `.4&amp;amp;t=1776690645` | 1 |
+| `.com` | 1 |
 
 > **Analyst Note:** Over 70% of high-confidence lures were hosted on newly registered domains (NRDs) under 14 days old, frequently registered via NameSilo, Porkbun, or Tucows, using free or low-cost TLDs (`.top`, `.icu`, `.buzz`, `.cfd`).
 
@@ -96,9 +95,9 @@ Attackers consistently leverage cheap, privacy-shielded registrars and bulletpro
 
 | Malware Family | Observed Incidents | Typical Delivery Mechanism |
 | :--- | :--- | :--- |
-| **Unattributed AI Lure** | 84 |
-| **LummaC2 Stealer** | 7 |
-| **Trojanized PyPI/npm Dependency** | 4 |
+| **Unattributed AI Lure** | 11 |
+| **Trojanized PyPI/npm Dependency** | 7 |
+| **LummaC2 Stealer** | 5 |
 | **Stealc** | 1 |
 
 ### Campaign Profile: Fake AI Desktop Installers -> Infostealers
@@ -193,9 +192,9 @@ level: high
 | `deepseek-coder-client-win64.lat` | deepseek | **85 (HIGH)** | LummaC2 Stealer | N/A d | `N/A` |
 | `chatgpt-4o-desktop-installer.top` | openai | **85 (HIGH)** | LummaC2 Stealer | N/A d | `N/A` |
 | `https://openai-chatgpt-plus-token.cfd/auth/signin` | openai | **80 (HIGH)** | Unattributed AI Lure | N/A d | `N/A` |
-| `recruiter-copilot-client--coherent-voice-301813.asia-southeast1.hosted.app` | microsoft_copilot | **70 (MEDIUM)** | LummaC2 Stealer | N/A d | `AS43515` |
-| `event-copilot-prod--event-copilot-client.us-central1.hosted.app` | microsoft_copilot | **70 (MEDIUM)** | LummaC2 Stealer | N/A d | `AS43515` |
-| `interview-copilot-auth--interviewcopilot-443620.us-central1.hosted.app` | microsoft_copilot | **65 (MEDIUM)** | Unattributed AI Lure | N/A d | `AS43515` |
+| `langchain-copilot-plugin` | ai_ecosystem_library | **60 (MEDIUM)** | Trojanized PyPI/npm Dependency | N/A d | `N/A` |
+| `primarypath-langgraph` | ai_ecosystem_library | **60 (MEDIUM)** | Trojanized PyPI/npm Dependency | N/A d | `N/A` |
+| `llmf` | ai_ecosystem_library | **50 (MEDIUM)** | Trojanized PyPI/npm Dependency | N/A d | `N/A` |
 
 ---
 *For full automated STIX 2.1 bundles and daily CSV updates, consult the repository feeds.*

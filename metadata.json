@@ -1,0 +1,8 @@
+{
+  "name": "AI Lure Tracker",
+  "description": "Live Cyber Threat Intelligence portal tracking malicious infrastructure, fake installers, and typosquatted dependencies abusing AI brands.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

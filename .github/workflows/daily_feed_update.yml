@@ -1,45 +1,55 @@
-name: Daily AI Lure CTI Feed Sync
+name: Daily AI Lure CTI Feed Sync & Quality Audit
 
 on:
   schedule:
     # Run daily at 02:00 UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
 
 permissions:
   contents: write
 
 jobs:
-  sync-cti-feeds:
+  validate-and-test:
+    name: CTI Feed Validation & Automated Testing
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v2
+          node-version: '22'
+          cache: 'npm'
 
       - name: Install Dependencies
-        run: |
-          uv venv
-          uv pip install -r pyproject.toml
+        run: npm install
 
-      - name: Run AI Lure Tracker Pipeline
-        env:
-          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
-          VIRUSTOTAL_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
-          SHODAN_API_KEY: ${{ secrets.SHODAN_API_KEY }}
-        run: |
-          .venv/bin/python -m src.cli run-pipeline
+      - name: Run Automated Threat Intelligence Tests
+        run: npm run test
 
-      - name: Commit and Push Updated Threat Feeds
+      - name: Validate CTI Feed Schema & Detect Duplicates
+        run: npm run validate:feed
+
+      - name: Verify Web Build (GitHub Pages Compatibility)
+        run: npm run build
+
+      - name: Upload Machine-Readable Feed Quality Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cti-feed-quality-report
+          path: reports/feed_quality_report.json
+          retention-days: 30
+
+      - name: Commit and Retain Quality Reports & Feed Updates
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add feeds/ reports/ data/
-          git diff --staged --quiet || (git commit -m "chore(feeds): automated daily threat intelligence sync [skip ci]" && git push)
+          git add feeds/ reports/ public/feeds/
+          git diff --staged --quiet || (git commit -m "chore(cti): automated daily feed audit & quality sync [skip ci]" && git push)

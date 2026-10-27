@@ -1,0 +1,16 @@
+{
+  "report_version": "1.0.0",
+  "generated_at": "2026-10-24T14:00:46.012Z",
+  "status": "PASSED",
+  "metrics": {
+    "total_indicators": 24,
+    "valid_indicators": 24,
+    "malformed_indicators": 0,
+    "duplicate_indicators": 0,
+    "schema_errors": 0,
+    "missing_sources": 0,
+    "flagged_for_manual_review": 0,
+    "quality_score_percentage": 100
+  },
+  "issues": []
+}

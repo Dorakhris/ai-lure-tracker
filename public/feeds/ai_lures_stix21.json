@@ -1,0 +1,717 @@
+{
+  "type": "bundle",
+  "id": "bundle--ef2400f9-459c-4958-ad75-fbc5fd8429a3",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "AI Lure Tracker CTI Initiative",
+      "description": "Open Cyber Threat Intelligence initiative monitoring infrastructure weaponizing Generative AI brands.",
+      "identity_class": "organization",
+      "sectors": [
+        "technology",
+        "cybersecurity"
+      ],
+      "contact_information": "cti@ai-lure-tracker.org"
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--10000000-0000-0000-0000-000000000000",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "LummaC2 Stealer",
+      "is_family": true,
+      "malware_types": [
+        "infostealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--20000000-0000-0000-0000-000000000000",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "Stealc",
+      "is_family": true,
+      "malware_types": [
+        "infostealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--30000000-0000-0000-0000-000000000000",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "AMOS Stealer",
+      "is_family": true,
+      "malware_types": [
+        "infostealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--40000000-0000-0000-0000-000000000000",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "Vidar",
+      "is_family": true,
+      "malware_types": [
+        "infostealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--50000000-0000-0000-0000-000000000000",
+      "created": "2026-10-24T12:00:00.000Z",
+      "modified": "2026-10-24T12:00:00.000Z",
+      "name": "Trojanized PyPI/npm Dependency",
+      "is_family": true,
+      "malware_types": [
+        "infostealer",
+        "trojan"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34e6627e-ed3e-4f72-b5d0-af83b0aa1ce9",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:56:12.806983+00:00",
+      "name": "AI Lure: midjourney-v6-pc-crack.buzz",
+      "description": "Malicious infrastructure impersonating midjourney. Type: fake_installer. Confidence: 65/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[domain-name:value = 'midjourney-v6-pc-crack.buzz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 65,
+      "labels": [
+        "ai-lure",
+        "midjourney",
+        "fake_installer",
+        "stealc"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--34e6627e-ed3e-4f72-b5d0-af83b0aa1ce9",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:56:12.806983+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--34e6627e-ed3e-4f72-b5d0-af83b0aa1ce9",
+      "target_ref": "malware--20000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--99fcc9ff-0a37-4d13-a1d3-d2e99e162c8e",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:56.499920+00:00",
+      "name": "AI Lure: https://gemini-advanced-ai-setup.xyz/login.php",
+      "description": "Malicious infrastructure impersonating google_ai. Type: credential_phish. Confidence: 80/100.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://gemini-advanced-ai-setup.xyz/login.php']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 80,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "fake_installer",
+        "credential-phish"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--99975572-ff56-49f5-a231-e33c3df9bb88",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:53.561241+00:00",
+      "name": "AI Lure: https://claude-35-sonnet-pro-free.icu/download/claude_installer.exe",
+      "description": "Malicious infrastructure impersonating anthropic. Type: fake_installer. Confidence: 95/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://claude-35-sonnet-pro-free.icu/download/claude_installer.exe']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 95,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "fake_installer",
+        "lummac2-stealer"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--99975572-ff56-49f5-a231-e33c3df9bb88",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:53.561241+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--99975572-ff56-49f5-a231-e33c3df9bb88",
+      "target_ref": "malware--10000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a39859fe-3799-4d84-86d9-87161a097da8",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:56:23.326929+00:00",
+      "name": "AI Lure: ollama-ai-desktop-installer.site",
+      "description": "Malicious infrastructure impersonating ollama. Type: suspicious_registration. Confidence: 65/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[domain-name:value = 'ollama-ai-desktop-installer.site']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 65,
+      "labels": [
+        "ai-lure",
+        "ollama",
+        "fake_installer",
+        "staging-candidate"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cf0905db-176a-420f-85ab-e8a6a7828911",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:59.170767+00:00",
+      "name": "AI Lure: deepseek-coder-client-win64.lat",
+      "description": "Malicious infrastructure impersonating deepseek. Type: suspicious_registration. Confidence: 45/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[domain-name:value = 'deepseek-coder-client-win64.lat']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 45,
+      "labels": [
+        "ai-lure",
+        "deepseek",
+        "fake_installer",
+        "staging-candidate"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--71dac0db-23b1-4fd2-a0cf-66c948b608c7",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:44.726921+00:00",
+      "name": "AI Lure: chatgpt-4o-desktop-installer.top",
+      "description": "Malicious infrastructure impersonating openai. Type: suspicious_registration. Confidence: 65/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[domain-name:value = 'chatgpt-4o-desktop-installer.top']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 65,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "fake_installer",
+        "staging-candidate"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--10d72555-c21b-4ae7-9544-3fc955c38487",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:56:26.727169+00:00",
+      "name": "AI Lure: https://openai-chatgpt-plus-token.cfd/auth/signin",
+      "description": "Malicious infrastructure impersonating openai. Type: credential_phish. Confidence: 75/100.",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://openai-chatgpt-plus-token.cfd/auth/signin']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 75,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "credential_phish"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--89083119-0ef2-43a1-ac78-f0d8ddf5de55",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:59.236976+00:00",
+      "name": "AI Lure: langchain-copilot-plugin",
+      "description": "Malicious infrastructure impersonating ai_ecosystem_library. Type: typosquat_dependency. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'langchain-copilot-plugin']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.073704+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--89083119-0ef2-43a1-ac78-f0d8ddf5de55",
+      "created": "2026-10-24T11:48:27.073704+00:00",
+      "modified": "2026-10-24T11:55:59.236976+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--89083119-0ef2-43a1-ac78-f0d8ddf5de55",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2c7adad6-ce8d-4192-bb98-8a258b888e9f",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.935602+00:00",
+      "name": "AI Lure: primarypath-langgraph",
+      "description": "Malicious infrastructure impersonating ai_ecosystem_library. Type: typosquat_dependency. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'primarypath-langgraph']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--2c7adad6-ce8d-4192-bb98-8a258b888e9f",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.935602+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2c7adad6-ce8d-4192-bb98-8a258b888e9f",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a2e8e730-a764-44de-8890-001700fa9a49",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.896518+00:00",
+      "name": "AI Lure: llmf",
+      "description": "Malicious infrastructure impersonating ai_ecosystem_library. Type: typosquat_dependency. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'llmf']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "ai_ecosystem_library",
+        "typosquat_dependency",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--a2e8e730-a764-44de-8890-001700fa9a49",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.896518+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--a2e8e730-a764-44de-8890-001700fa9a49",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0f398d66-b833-4d2f-981b-0d23ebea87c0",
+      "created": "2026-10-24T11:48:27.067077+00:00",
+      "modified": "2026-10-24T11:55:36.042301+00:00",
+      "name": "AI Lure: @bash0816/claude-code",
+      "description": "Malicious infrastructure impersonating anthropic. Type: lookalike_package. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = '@bash0816/claude-code']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:27.067077+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--0f398d66-b833-4d2f-981b-0d23ebea87c0",
+      "created": "2026-10-24T11:48:27.067077+00:00",
+      "modified": "2026-10-24T11:55:36.042301+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--0f398d66-b833-4d2f-981b-0d23ebea87c0",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--686e0a4c-e4d7-4f4f-8a0b-ba31eea8c116",
+      "created": "2026-10-24T11:48:24.487070+00:00",
+      "modified": "2026-10-24T11:55:36.006816+00:00",
+      "name": "AI Lure: my-claude-code",
+      "description": "Malicious infrastructure impersonating anthropic. Type: lookalike_package. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'my-claude-code']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:24.487070+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--686e0a4c-e4d7-4f4f-8a0b-ba31eea8c116",
+      "created": "2026-10-24T11:48:24.487070+00:00",
+      "modified": "2026-10-24T11:55:36.006816+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--686e0a4c-e4d7-4f4f-8a0b-ba31eea8c116",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--63c1ced5-c02c-4d18-90d4-0b97b3ad2bfe",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.952970+00:00",
+      "name": "AI Lure: primarypath-claude-agent",
+      "description": "Malicious infrastructure impersonating anthropic. Type: lookalike_package. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'primarypath-claude-agent']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--63c1ced5-c02c-4d18-90d4-0b97b3ad2bfe",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.952970+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--63c1ced5-c02c-4d18-90d4-0b97b3ad2bfe",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7d19d502-5a47-4537-ab0b-56441cffe94a",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.916898+00:00",
+      "name": "AI Lure: primarypath-openai-agents",
+      "description": "Malicious infrastructure impersonating openai. Type: lookalike_package. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[software:name = 'primarypath-openai-agents']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:48:24.485118+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "lookalike_package",
+        "trojanized-pypi/npm-dependency"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--7d19d502-5a47-4537-ab0b-56441cffe94a",
+      "created": "2026-10-24T11:48:24.485118+00:00",
+      "modified": "2026-10-24T11:55:35.916898+00:00",
+      "relationship_type": "indicates",
+      "source_ref": "indicator--7d19d502-5a47-4537-ab0b-56441cffe94a",
+      "target_ref": "malware--50000000-0000-0000-0000-000000000000"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c17f2600-ee84-445c-8fd0-44862a92b0c9",
+      "created": "2026-10-24T11:45:30.288052+00:00",
+      "modified": "2026-10-24T11:55:35.871916+00:00",
+      "name": "AI Lure: https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data",
+      "description": "Malicious infrastructure impersonating google_ai. Type: brand_impersonation. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://qrco.de/firebasegooglecomgemini-in-firebasehow-gemini-in-firebase-uses-your-data']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.288052+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7f66db27-7523-4fcf-a7de-115452e3f0c5",
+      "created": "2026-10-24T11:45:30.160261+00:00",
+      "modified": "2026-10-24T11:55:33.024673+00:00",
+      "name": "AI Lure: https://openai-onlinecfg.dafleek.com/ai/app/key.php?",
+      "description": "Malicious infrastructure impersonating openai. Type: brand_impersonation. Confidence: 30/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://openai-onlinecfg.dafleek.com/ai/app/key.php?']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.160261+00:00",
+      "confidence": 30,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fcbfa3fa-59f0-4517-9a20-3f54a0cb57c2",
+      "created": "2026-10-24T11:45:30.149900+00:00",
+      "modified": "2026-10-24T11:55:30.287031+00:00",
+      "name": "AI Lure: https://claude.serv7231.pro/captcha.php",
+      "description": "Malicious infrastructure impersonating anthropic. Type: brand_impersonation. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://claude.serv7231.pro/captcha.php']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.149900+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--92504b85-df7d-43aa-b5ea-8940a9e96bbc",
+      "created": "2026-10-24T11:45:30.149900+00:00",
+      "modified": "2026-10-24T11:55:29.944649+00:00",
+      "name": "AI Lure: https://claude.serv7231.pro/",
+      "description": "Malicious infrastructure impersonating anthropic. Type: brand_impersonation. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://claude.serv7231.pro/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.149900+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "anthropic",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--68295e04-ccdc-4efa-898e-efb99991e0b6",
+      "created": "2026-10-24T11:45:30.126742+00:00",
+      "modified": "2026-10-24T11:55:19.236338+00:00",
+      "name": "AI Lure: https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf",
+      "description": "Malicious infrastructure impersonating general_ai_terms. Type: brand_impersonation. Confidence: 50/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://storage.ghost.io/c/44/95/449506ca-034e-480f-9725-fcde08ef1cc1/content/files/2025/07/AIGN-Agentic-AI-Governance-Framework-1.0.pdf']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.126742+00:00",
+      "confidence": 50,
+      "labels": [
+        "ai-lure",
+        "general_ai_terms",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c9417d99-a94d-4a14-88f1-c8916183c7ee",
+      "created": "2026-10-24T11:45:30.108044+00:00",
+      "modified": "2026-10-24T11:55:17.662114+00:00",
+      "name": "AI Lure: https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645",
+      "description": "Malicious infrastructure impersonating openai. Type: brand_impersonation. Confidence: 52/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://openai-onlinelxb.rvmobltech.com/chat/app/key.php?token=7cd8831d71a34639&amp;amp;session=eea9fe80f7&amp;amp;ref=17766906451526&amp;amp;v=v3.4&amp;amp;t=1776690645']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.108044+00:00",
+      "confidence": 52,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0ece98d3-be04-4d01-8fdd-95296bb6720a",
+      "created": "2026-10-24T11:45:30.086758+00:00",
+      "modified": "2026-10-24T11:55:14.826796+00:00",
+      "name": "AI Lure: https://open-chtgptrenew.com/refu/chatgpt/",
+      "description": "Malicious infrastructure impersonating openai. Type: brand_impersonation. Confidence: 55/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://open-chtgptrenew.com/refu/chatgpt/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.086758+00:00",
+      "confidence": 55,
+      "labels": [
+        "ai-lure",
+        "openai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2b519cdb-18c2-4624-bdf5-2fcdbf19bf35",
+      "created": "2026-10-24T11:45:30.083401+00:00",
+      "modified": "2026-10-24T11:55:11.673379+00:00",
+      "name": "AI Lure: https://corporation-gemini.wixstudio.com/us-en",
+      "description": "Malicious infrastructure impersonating google_ai. Type: brand_impersonation. Confidence: 25/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://corporation-gemini.wixstudio.com/us-en']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:30.083401+00:00",
+      "confidence": 25,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--56bd0ae7-1ac2-4fff-9eab-dd94729fb19d",
+      "created": "2026-10-24T11:45:29.896658+00:00",
+      "modified": "2026-10-24T11:55:08.946806+00:00",
+      "name": "AI Lure: http://gemini-alarmes.com",
+      "description": "Malicious infrastructure impersonating google_ai. Type: brand_impersonation. Confidence: 45/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'http://gemini-alarmes.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:29.896658+00:00",
+      "confidence": 45,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ad6e1556-a34a-4451-bb16-78e58577f1be",
+      "created": "2026-10-24T11:45:29.858915+00:00",
+      "modified": "2026-10-24T11:55:06.838297+00:00",
+      "name": "AI Lure: https://gemini-balance.yahou2011.com/",
+      "description": "Malicious infrastructure impersonating google_ai. Type: brand_impersonation. Confidence: 40/100.",
+      "indicator_types": [
+        "compromised"
+      ],
+      "pattern": "[url:value = 'https://gemini-balance.yahou2011.com/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-24T11:45:29.858915+00:00",
+      "confidence": 40,
+      "labels": [
+        "ai-lure",
+        "google_ai",
+        "brand_impersonation"
+      ],
+      "created_by_ref": "identity--c7650f9a-8b1c-4b68-96f3-a3d1d1f05321"
+    }
+  ]
+}
