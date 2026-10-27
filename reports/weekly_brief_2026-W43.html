@@ -21,11 +21,11 @@
     <h1>🛡️ AI Lure Tracker CTI Brief</h1>
     <span style="background:#238636; color:#fff; padding:6px 12px; border-radius:16px; font-weight:bold;">TLP:CLEAR</span>
   </div>
-  <p><strong>Period:</strong> 2026-W43 | <strong>Total Monitored Indicators:</strong> 142 | <strong>High-Confidence Hits:</strong> 7</p>
+  <p><strong>Period:</strong> 2026-W43 | <strong>Total Monitored Indicators:</strong> 233 | <strong>High-Confidence Hits:</strong> 7</p>
   <hr style="border:1px solid #30363d;">
   <div id="content">
     <pre style="white-space: pre-wrap; font-family: inherit; color: inherit; background: transparent; border: none; padding: 0;"># 🛡️ AI Lure Tracker - Weekly Threat Intelligence Brief
-**Report Period:** 2026-W43 | **Published:** October 26, 2026 | **Classification:** TLP:CLEAR  
+**Report Period:** 2026-W43 | **Published:** October 27, 2026 | **Classification:** TLP:CLEAR  
 **Prepared by:** AI Lure Tracker CTI Initiative
 
 ---
@@ -35,10 +35,10 @@
 During the period of **2026-W43**, threat actors continued aggressive opportunistic exploitation of generative AI brands and agentic frameworks. The primary attack vectors remain **SEO poisoning, malicious sponsored ads, and typosquatted package ecosystems** leading victims to fraudulent AI landing sites delivering **infostealers** (notably **LummaC2**, **Stealc**, and **AMOS Stealer** for macOS).
 
 ### Key Metrics
-- **Total Tracked Malicious Infrastructure:** 142 indicators
+- **Total Tracked Malicious Infrastructure:** 233 indicators
 - **High-Confidence Indicators (Actionable Blocks):** 7 (Score ≥ 75%)
 - **Primary Delivery Vector:** Trojanized Desktop Installers masquerading as ChatGPT, Claude, and Gemini (8 incidents).
-- **Dominant Abused AI Brand:** **microsoft_copilot** (65 hits).
+- **Dominant Abused AI Brand:** **google_ai** (94 hits).
 - **Ecosystem Poisoning:** Lookalike packages identified in PyPI and npm registries targeting AI developer tooling.
 
 ---
@@ -49,15 +49,15 @@ Threat actors target the brands with the highest search volume and recent media 
 
 | Brand / Ecosystem | Total Detections | Share (%) |
 | :--- | :--- | :--- |
-| **MICROSOFT_COPILOT** | 65 | 45.8% |
-| **OPENAI** | 51 | 35.9% |
-| **DEEPSEEK** | 13 | 9.2% |
-| **ANTHROPIC** | 5 | 3.5% |
-| **GOOGLE_AI** | 4 | 2.8% |
-| **MIDJOURNEY** | 1 | 0.7% |
-| **OLLAMA** | 1 | 0.7% |
-| **AI_ECOSYSTEM_LIBRARY** | 1 | 0.7% |
-| **GENERAL_AI_TERMS** | 1 | 0.7% |
+| **GOOGLE_AI** | 94 | 40.3% |
+| **MICROSOFT_COPILOT** | 65 | 27.9% |
+| **OPENAI** | 52 | 22.3% |
+| **DEEPSEEK** | 14 | 6.0% |
+| **ANTHROPIC** | 3 | 1.3% |
+| **AI_ECOSYSTEM_LIBRARY** | 2 | 0.9% |
+| **MIDJOURNEY** | 1 | 0.4% |
+| **OLLAMA** | 1 | 0.4% |
+| **GENERAL_AI_TERMS** | 1 | 0.4% |
 
 ---
 
@@ -68,25 +68,25 @@ Attackers consistently leverage cheap, privacy-shielded registrars and bulletpro
 ### Top Malicious ASNs & Hosting Providers
 | ASN & Organization | Active Indicators | Representative Infrastructure |
 | :--- | :--- | :--- |
-| `Unresolved / Cloudflare CDN` | 41 | `midjourney-v6-pc-crack.buzz, https://gemini-advanced-ai-setup.xyz/login.php` |
+| `AS13335 - Cloudflare, Inc.` | 63 | `gemini--login--ask.pages.dev, gemini---login.pages.dev` |
+| `Unresolved / Cloudflare CDN` | 43 | `midjourney-v6-pc-crack.buzz, https://gemini-advanced-ai-setup.xyz/login.php` |
+| `AS43515 - Google LLC` | 42 | `event-copilot-prod--event-copilot-client.us-central1.hosted.app, recruiter-copilot-client--coherent-voice-301813.asia-southeast1.hosted.app` |
 | `AS206834 - TEAM-INTERNET` | 30 | `test.chatgpt--prompts.de, api.chatgpt--prompts.de` |
-| `AS13335 - Cloudflare, Inc.` | 28 | `chatgpt--codex-login-guide.pages.dev, deepseek-r1-1-5b--poc.ssegning.com` |
-| `AS43515 - Google LLC` | 22 | `event-copilot-prod--event-copilot-client.us-central1.hosted.app, recruiter-copilot-client--coherent-voice-301813.asia-southeast1.hosted.app` |
-| `AS16276 - OVH GmbH` | 5 | `copilot-move--f9aa3265-dev.gateway.dev-codesphere.com, copilot-move--f9aa3265-dev.dev-codesphere.com` |
+| `AS396982 - Google Cloud (europe-west1)` | 22 | `6543210api--non-blocking-gemini--raph.coder.joinkult.ai, 10web--non-blocking-gemini--raph.coder.joinkult.ai` |
 
 ### Top Abused TLDs
 | Top-Level Domain (TLD) | Total Domains |
 | :--- | :--- |
-| `.com` | 38 |
-| `.app` | 22 |
+| `.com` | 45 |
+| `.dev` | 43 |
+| `.app` | 42 |
+| `.ai` | 22 |
 | `.de` | 17 |
 | `.io` | 13 |
 | `.net` | 13 |
-| `.dev` | 8 |
 | `.run` | 7 |
 | `.php` | 2 |
-| `.link` | 2 |
-| `.buzz` | 1 |
+| `.xyz` | 2 |
 
 > **Analyst Note:** Over 70% of high-confidence lures were hosted on newly registered domains (NRDs) under 14 days old, frequently registered via NameSilo, Porkbun, or Tucows, using free or low-cost TLDs (`.top`, `.icu`, `.buzz`, `.cfd`).
 
@@ -96,9 +96,9 @@ Attackers consistently leverage cheap, privacy-shielded registrars and bulletpro
 
 | Malware Family | Observed Incidents | Typical Delivery Mechanism |
 | :--- | :--- | :--- |
-| **Unattributed AI Lure** | 131 |
-| **LummaC2 Stealer** | 8 |
-| **Trojanized PyPI/npm Dependency** | 2 |
+| **Unattributed AI Lure** | 222 |
+| **LummaC2 Stealer** | 7 |
+| **Trojanized PyPI/npm Dependency** | 3 |
 | **Stealc** | 1 |
 
 ### Campaign Profile: Fake AI Desktop Installers -> Infostealers
